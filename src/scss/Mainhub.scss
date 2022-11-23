@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Source+Code+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.hub {
+    background: url('../assets/backg.png') center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    &-content {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        &-brand {
+            font-family: 'Cormorant SC', serif;
+            color: #ffff;
+        }
+        &-vintage {
+            font-family: 'Cormorant SC', serif;
+            color: #ffffff;
+            font-size: 55px;
+        }
+        &-vintage-p {
+            color: #ffffff;
+            width: 670px;
+        }
+    }
+} 
